@@ -602,6 +602,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* --- Players Section --- */
+.players-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 2px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.players-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 .players-showcase {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
