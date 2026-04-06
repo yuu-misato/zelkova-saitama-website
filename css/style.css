@@ -615,6 +615,21 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.players-scroll .player-card {
+  min-width: 25%;
+  max-width: 25%;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+@media (max-width: 1024px) {
+  .players-scroll .player-card { min-width: 40%; max-width: 40%; }
+}
+
+@media (max-width: 640px) {
+  .players-scroll .player-card { min-width: 75%; max-width: 75%; }
+}
+
 .players-showcase {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
