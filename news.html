@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZELKOVA SAITAMA 3x3 - ニュース・お知らせ。">
+  <title>News | ZELKOVA SAITAMA 3x3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header is-scrolled" id="header">
+    <div class="header__inner">
+      <a href="index.html">
+        <img src="img/logo-white.jpg" alt="ZELKOVA SAITAMA 3x3" style="height:48px;width:48px;object-fit:contain;border-radius:50%;">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="team.html" class="nav__link">Team</a>
+        <a href="players.html" class="nav__link">Players</a>
+        <a href="schedule.html" class="nav__link">Schedule</a>
+        <a href="news.html" class="nav__link is-active">News</a>
+        <a href="sponsors.html" class="nav__link">Sponsors</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="team.html" class="mobile-menu__link">Team</a>
+    <a href="players.html" class="mobile-menu__link">Players</a>
+    <a href="schedule.html" class="mobile-menu__link">Schedule</a>
+    <a href="news.html" class="mobile-menu__link">News</a>
+    <a href="sponsors.html" class="mobile-menu__link">Sponsors</a>
+    <a href="contact.html" class="mobile-menu__link">Contact</a>
+  </div>
+
+  <div class="page-header">
+    <div class="page-header__bg">
+      <div style="width:100%;height:100%;background:linear-gradient(135deg, #0E0A1A 0%, #0A0A0A 60%, #0A1A0E 100%);"></div>
+    </div>
+    <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to top, var(--black) 0%, transparent 50%);z-index:1;"></div>
+    <div class="page-header__content">
+      <span class="section-label">Latest Updates</span>
+      <h1 class="page-header__title">NEWS</h1>
+    </div>
+  </div>
+
+  <!-- NEWS FILTER -->
+  <section class="section section--dark" style="padding-top:48px;">
+    <div class="container">
+      <div style="display:flex;gap:16px;margin-bottom:48px;flex-wrap:wrap;" class="reveal">
+        <button style="font-family:var(--font-display);font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;padding:10px 24px;background:var(--green);color:var(--white);border:none;cursor:pointer;">All</button>
+        <button style="font-family:var(--font-display);font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;padding:10px 24px;background:transparent;color:var(--gray);border:1px solid var(--gray-dark);cursor:pointer;">News</button>
+        <button style="font-family:var(--font-display);font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;padding:10px 24px;background:transparent;color:var(--gray);border:1px solid var(--gray-dark);cursor:pointer;">Game</button>
+        <button style="font-family:var(--font-display);font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;padding:10px 24px;background:transparent;color:var(--gray);border:1px solid var(--gray-dark);cursor:pointer;">Event</button>
+      </div>
+
+      <!-- NEWS LIST -->
+      <div class="news-grid reveal">
+        <!-- Featured -->
+        <div class="news-card">
+          <div class="news-card__inner">
+            <div class="news-card__img">
+              <div style="width:100%;height:100%;min-height:300px;background:linear-gradient(135deg,#0A1A0E,#1A2A1E);display:flex;align-items:center;justify-content:center;">
+                <span style="font-family:var(--font-accent);font-size:2rem;color:rgba(42,125,65,0.15);">NEWS IMAGE</span>
+              </div>
+            </div>
+            <div class="news-card__body">
+              <span class="news-card__tag">News</span>
+              <div class="news-card__date">2026.04.01</div>
+              <h3 class="news-card__title">ZELKOVA SAITAMA 公式Webサイトをリニューアルしました</h3>
+              <p style="font-size:0.875rem;color:var(--gray);line-height:1.8;margin-top:16px;">
+                チームの最新情報を、よりわかりやすく、よりカッコよくお届けするために、公式Webサイトをフルリニューアルしました。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- News items -->
+        <div class="news-card">
+          <div class="news-card__img">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1A1A1A,#0E1A0A);display:flex;align-items:center;justify-content:center;">
+              <span style="font-family:var(--font-accent);font-size:1rem;color:rgba(255,255,255,0.05);">IMG</span>
+            </div>
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__tag">Game</span>
+            <div class="news-card__date">2026.03.28</div>
+            <h3 class="news-card__title">3XS 2025-26シーズン 試合結果のお知らせ</h3>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-card__img">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1A1A1A,#0A0E1A);display:flex;align-items:center;justify-content:center;">
+              <span style="font-family:var(--font-accent);font-size:1rem;color:rgba(255,255,255,0.05);">IMG</span>
+            </div>
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__tag">Event</span>
+            <div class="news-card__date">2026.03.15</div>
+            <h3 class="news-card__title">ユースアカデミー 新メンバー募集のお知らせ</h3>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-card__img">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1A1A1A,#1A0A0E);display:flex;align-items:center;justify-content:center;">
+              <span style="font-family:var(--font-accent);font-size:1rem;color:rgba(255,255,255,0.05);">IMG</span>
+            </div>
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__tag">News</span>
+            <div class="news-card__date">2026.03.01</div>
+            <h3 class="news-card__title">RBL 2026-27シーズン参戦決定のお知らせ</h3>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-card__img">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg,#1A1A1A,#0A1A0E);display:flex;align-items:center;justify-content:center;">
+              <span style="font-family:var(--font-accent);font-size:1rem;color:rgba(255,255,255,0.05);">IMG</span>
+            </div>
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__tag">News</span>
+            <div class="news-card__date">2025.12.15</div>
+            <h3 class="news-card__title">トップチーム 2025-26シーズン選手登録完了のお知らせ</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div style="display:flex;justify-content:center;gap:8px;margin-top:64px;" class="reveal">
+        <span style="font-family:var(--font-display);font-size:0.875rem;width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--green);color:var(--white);">1</span>
+        <span style="font-family:var(--font-display);font-size:0.875rem;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border:1px solid var(--gray-dark);color:var(--gray);cursor:pointer;">2</span>
+        <span style="font-family:var(--font-display);font-size:0.875rem;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border:1px solid var(--gray-dark);color:var(--gray);cursor:pointer;">3</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom" style="border-top:none;padding-top:0;">
+        <span class="footer__copy">&copy; 2026 ZELKOVA SAITAMA. All Rights Reserved.</span>
+        <div class="footer__legal"><a href="index.html">Home</a><a href="#">Privacy Policy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

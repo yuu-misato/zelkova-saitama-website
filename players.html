@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZELKOVA SAITAMA 3x3 - 選手一覧。ロスター情報とスタッフ紹介。">
+  <title>Players | ZELKOVA SAITAMA 3x3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header is-scrolled" id="header">
+    <div class="header__inner">
+      <a href="index.html">
+        <img src="img/logo-white.jpg" alt="ZELKOVA SAITAMA 3x3" style="height:48px;width:48px;object-fit:contain;border-radius:50%;">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="index.html#about" class="nav__link">Team</a>
+        <a href="players.html" class="nav__link is-active">Players</a>
+        <a href="schedule.html" class="nav__link">Schedule</a>
+        <a href="news.html" class="nav__link">News</a>
+        <a href="sponsors.html" class="nav__link">Sponsors</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about" class="mobile-menu__link">Team</a>
+    <a href="players.html" class="mobile-menu__link">Players</a>
+    <a href="schedule.html" class="mobile-menu__link">Schedule</a>
+    <a href="news.html" class="mobile-menu__link">News</a>
+    <a href="sponsors.html" class="mobile-menu__link">Sponsors</a>
+    <a href="contact.html" class="mobile-menu__link">Contact</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header__bg">
+      <img src="img/team-outdoor.jpg" alt="ZELKOVA SAITAMA">
+    </div>
+    <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to top, var(--black) 0%, rgba(10,10,10,0.5) 50%);z-index:1;"></div>
+    <div class="page-header__content">
+      <span class="section-label">Roster 2025-26</span>
+      <h1 class="page-header__title">PLAYERS</h1>
+    </div>
+  </div>
+
+  <!-- PLAYERS GRID -->
+  <section class="section section--dark" style="padding-top: 64px;">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section-label">Top Team</span>
+        <h2 class="section-title" style="font-size:clamp(2rem,5vw,4rem);">ROSTER</h2>
+      </div>
+    </div>
+
+    <!-- Full-width player grid -->
+    <div class="players-showcase reveal" style="margin-top:32px;">
+
+      <!-- #19 洲崎志織 -->
+      <div class="player-card" id="player-suzaki">
+        <img class="player-card__img" src="img/player-suzaki.jpg" alt="洲崎志織">
+        <span class="player-card__number">#19</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">S. Suzaki</div>
+          <div class="player-card__name-jp">洲崎 志織</div>
+          <div class="player-card__position">Guard / Forward</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>175</span>cm</span>
+            <span class="player-card__stat">埼玉県上尾市</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- #25 千葉日虹 -->
+      <div class="player-card" id="player-chiba">
+        <img class="player-card__img" src="img/player-chiba.jpg" alt="千葉日虹">
+        <span class="player-card__number">#25</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">H. Chiba</div>
+          <div class="player-card__name-jp">千葉 日虹</div>
+          <div class="player-card__position">Guard / Forward</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>170</span>cm</span>
+            <span class="player-card__stat">埼玉県越谷市</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- #31 丸山花暖 -->
+      <div class="player-card" id="player-maruyama">
+        <img class="player-card__img" src="img/player-maruyama.jpg" alt="丸山花暖">
+        <span class="player-card__number">#31</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">H. Maruyama</div>
+          <div class="player-card__name-jp">丸山 花暖</div>
+          <div class="player-card__position">Guard</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>158</span>cm</span>
+            <span class="player-card__stat">埼玉県幸手市</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- #32 笹山柚杏 -->
+      <div class="player-card" id="player-sasayama">
+        <img class="player-card__img" src="img/player-sasayama.jpg" alt="笹山柚杏">
+        <span class="player-card__number">#32</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">Y. Sasayama</div>
+          <div class="player-card__name-jp">笹山 柚杏</div>
+          <div class="player-card__position">Guard</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>158</span>cm</span>
+            <span class="player-card__stat">千葉県流山市</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- #52 金田こずえ -->
+      <div class="player-card" id="player-kaneda">
+        <img class="player-card__img" src="img/player-sasayama-action.jpg" alt="金田こずえ">
+        <span class="player-card__number">#52</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">K. Kaneda</div>
+          <div class="player-card__name-jp">金田 こずえ</div>
+          <div class="player-card__position">Guard / Forward</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>165</span>cm</span>
+            <span class="player-card__stat">埼玉県三郷市</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- #81 高唯梛 (育成契約) -->
+      <div class="player-card" id="player-taka">
+        <img class="player-card__img" src="img/player-taka.jpg" alt="高唯梛">
+        <span class="player-card__number">#81</span>
+        <div class="player-card__overlay">
+          <div class="player-card__name">Y. Taka</div>
+          <div class="player-card__name-jp">高 唯梛</div>
+          <div class="player-card__position" style="color:var(--blue);">Development Contract</div>
+          <div class="player-card__details">
+            <span class="player-card__stat"><span>160</span>cm</span>
+            <span class="player-card__stat">東京都足立区</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PLAYER DETAILS (expandable) -->
+  <section class="section section--darker">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section-label">Player Profiles</span>
+        <h2 class="section-title" style="font-size:clamp(2rem,5vw,4rem);">DETAILS</h2>
+      </div>
+
+      <!-- Player detail cards -->
+      <div style="display:flex;flex-direction:column;gap:2px;" class="reveal">
+
+        <!-- Suzaki -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid var(--green);">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--green);text-align:center;">#19</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">洲崎 志織</div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">SUZAKI SHIORI</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">175cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">1999.3.5</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">埼玉県上尾市</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            正智深谷高等学校 → 明治大学
+          </div>
+        </div>
+
+        <!-- Chiba -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid transparent;">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--green);text-align:center;">#25</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">千葉 日虹</div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">CHIBA HINIJI</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">170cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">2007.9.10</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">埼玉県越谷市</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            正平高校 → ZELKOVA SAITAMA U18
+          </div>
+        </div>
+
+        <!-- Maruyama -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid transparent;">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--green);text-align:center;">#31</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">丸山 花暖</div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">MARUYAMA HANON</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">158cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">2008.3.11</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">埼玉県幸手市</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            埼玉県立春日部東高校 → ZELKOVA SAITAMA U18
+          </div>
+        </div>
+
+        <!-- Sasayama -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid transparent;">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--green);text-align:center;">#32</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">笹山 柚杏</div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">SASAYAMA YUAN</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">158cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">2007.2.21</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">千葉県流山市</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            西武台千葉高校 → ZELKOVA SAITAMA U18
+          </div>
+        </div>
+
+        <!-- Kaneda -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid transparent;">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--green);text-align:center;">#52</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">金田 こずえ</div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">KANEDA KOZUE</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">165cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">2007.12.26</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">埼玉県三郷市</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            SAITAMA LIPLA U15 → 久喜高校 → SAITAMA WILDBEARS
+          </div>
+        </div>
+
+        <!-- Taka (Development) -->
+        <div style="display:grid;grid-template-columns:80px 1fr 1fr 1fr;gap:24px;padding:32px;background:var(--black-card);align-items:center;border-left:3px solid var(--blue);">
+          <div style="font-family:var(--font-accent);font-size:2rem;color:var(--blue);text-align:center;">#81</div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:1.125rem;font-weight:600;">高 唯梛 <span style="font-size:0.625rem;color:var(--blue);border:1px solid var(--blue);padding:2px 8px;margin-left:8px;vertical-align:middle;letter-spacing:0.1em;">育成契約</span></div>
+            <div style="font-size:0.75rem;color:var(--gray);letter-spacing:0.1em;margin-top:2px;">TAKA YUINA</div>
+          </div>
+          <div style="display:flex;gap:24px;">
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Height</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">160cm</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">Birthday</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">2008.8.1</div>
+            </div>
+            <div>
+              <div style="font-size:0.625rem;color:var(--gray);letter-spacing:0.1em;text-transform:uppercase;">From</div>
+              <div style="font-family:var(--font-display);font-size:1rem;margin-top:2px;">東京都足立区</div>
+            </div>
+          </div>
+          <div style="font-size:0.8125rem;color:var(--gray);line-height:1.6;">
+            ZELKOVA SAITAMA U15 → 東京朝鮮中高級学校 → ZELKOVA SAITAMA U18
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COACHING STAFF -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section-label">Leadership</span>
+        <h2 class="section-title" style="font-size:clamp(2rem,5vw,4rem);">COACHING<br>STAFF</h2>
+      </div>
+
+      <div class="staff-grid reveal">
+        <div class="staff-card">
+          <div style="width:100%;aspect-ratio:1;background:linear-gradient(135deg,#1A1A1A,#0A1A0E);display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+            <span style="font-family:var(--font-accent);font-size:1.5rem;color:rgba(42,125,65,0.15);">PHOTO</span>
+          </div>
+          <div class="staff-card__name">津川 隆治</div>
+          <div class="staff-card__role">Executive Director</div>
+        </div>
+
+        <div class="staff-card">
+          <div style="width:100%;aspect-ratio:1;background:linear-gradient(135deg,#1A1A1A,#0A0E1A);display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+            <span style="font-family:var(--font-accent);font-size:1.5rem;color:rgba(33,116,186,0.15);">PHOTO</span>
+          </div>
+          <div class="staff-card__name">大森 涼平</div>
+          <div class="staff-card__role">Assistant Coach / Youth Academy</div>
+        </div>
+
+        <div class="staff-card">
+          <div style="width:100%;aspect-ratio:1;background:linear-gradient(135deg,#1A1A1A,#1A0E0A);display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+            <span style="font-family:var(--font-accent);font-size:1.5rem;color:rgba(42,125,65,0.15);">PHOTO</span>
+          </div>
+          <div class="staff-card__name">濱田 雅大</div>
+          <div class="staff-card__role">Youth Academy Coach</div>
+        </div>
+
+        <div class="staff-card">
+          <div style="width:100%;aspect-ratio:1;background:linear-gradient(135deg,#1A1A1A,#0E1A0A);display:flex;align-items:center;justify-content:center;margin-bottom:16px;">
+            <span style="font-family:var(--font-accent);font-size:1.5rem;color:rgba(33,116,186,0.15);">PHOTO</span>
+          </div>
+          <div class="staff-card__name">西原 寛太</div>
+          <div class="staff-card__role">Youth Academy Coach</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom" style="border-top:none;padding-top:0;">
+        <span class="footer__copy">&copy; 2026 ZELKOVA SAITAMA. All Rights Reserved.</span>
+        <div class="footer__legal">
+          <a href="index.html">Home</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <style>
+    /* Player detail responsive override */
+    @media (max-width: 768px) {
+      [style*="grid-template-columns:80px 1fr 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+      }
+    }
+  </style>
+</body>
+</html>
